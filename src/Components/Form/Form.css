@@ -1,0 +1,11 @@
+.root{
+    width: 40%;
+    background-image: linear-gradient(120deg, #e0ece4, #ccc);
+    padding: 40px 100px;
+}
+
+.root h3{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
