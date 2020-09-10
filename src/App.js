@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 import EventIcon from "@material-ui/icons/Event";
 import Events from './Components/Events/Events'

@@ -41,11 +41,11 @@ const Event = (props) => {
             position: "absolute",
             right: "6px",
             top: "6px",
-            fontSize: "3rem",
+            fontSize: "30px",
             cursor: "pointer",
             color: "#66bfbf",
           }}
-          onClick={() => console.log("clicked")}
+          onClick={() => props.delHandler(props.keyid)}
         ></CancelIcon>
         <div className="event__title">{props.title}</div>
         <div className="event__time">

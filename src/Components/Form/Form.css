@@ -1,11 +1,30 @@
-.root{
+.root {
+    position: relative;
     width: 40%;
-    background-image: linear-gradient(120deg, #e0ece4, #ccc);
+    height: 40vh;
+    background-image: linear-gradient(60deg, #ccc, #eee);
     padding: 40px 100px;
 }
 
-.root h3{
-    font-size: 20px;
+.root h3 {
+    font-size: 22px;
     text-align: center;
     margin-bottom: 40px;
+}
+
+.submitbtn {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.submitbtn>Button {
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #e0ece4;
+    width: 40%;
+    background-color: #ff4b5c;
+}
+
+.submitbtn>Button:hover{
+    background-color: #b10011;
 }

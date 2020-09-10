@@ -1,0 +1,38 @@
+.events{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.buttons > .btn {
+    margin-bottom: 60px;
+    font-size: 24px;
+    background-color: #ff4b5c;
+    color: #ccc;
+    text-transform: capitalize;
+    box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.301);
+}
+
+.buttons > .btn:hover {
+    background-color: #b10011;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.472);
+}
+
+.text {
+    text-align: center;
+    letter-spacing: 6px;
+    color: #ff4b5c;
+    padding: 50px;
+    font-size: 40px;
+}
+
+.eventsWrapper {
+    width: 90%;
+    padding-top: 100px;
+    margin: auto;
+}
+
+.buttons{
+    margin-top: 20px;
+    text-align: center;
+}
